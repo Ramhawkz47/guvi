@@ -5,8 +5,8 @@ def deln(n,k):
     #print(k)
     a=deln(n//10,k)*10+n%10
     b=deln(n//10,k-1)
-    print(a)
-    print(b)
+    #print(a)
+    #print(b)
     if a<b:
         return a
     else:
