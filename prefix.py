@@ -28,7 +28,6 @@ for i in range(m):
             c=j
     if(x==1):
         break
-    #print(d)
     s+=c
     d={}
 
