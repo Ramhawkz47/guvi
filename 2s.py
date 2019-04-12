@@ -13,7 +13,7 @@ else:
     a=x[i:]
     b=y[i:]
     l=list(a)
-    print(l)
+    #print(l)
     j=0
     for c in b:
         if c in l:
