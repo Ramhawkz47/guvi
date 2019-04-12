@@ -11,7 +11,7 @@ for i in range(n):
     l.append(input())
 l.sort()
 m=larS(l)
-s=""    
+s=""
 d={}
 for i in range(m):
     for j in range(len(l)):
@@ -26,8 +26,10 @@ for i in range(m):
         if(d[j]>=x):
             x=d[j]
             c=j
-    if(x==1):
+    
+    if(x!=n):
         break
+    #print(d)
     s+=c
     d={}
 
