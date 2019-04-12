@@ -1,9 +1,3 @@
-class hello:
-    def __init__(self):
-        self.n= int(input())
-    def printing(self):
-        for i in range(0,self.n):
+x=int(input())
+for i in range(x):
             print("Hello")
-
-h= hello()
-h.printing()
