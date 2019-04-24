@@ -21,6 +21,9 @@ for i in range(len(l)):
   l[i]=int(l[i])
 
 m=remo(l,n)
-
+f=0
 for i in m:
-  print(i,end=" ")
+  if(len(m)>(f+1)):
+    print(i,end=" ")
+  else:
+    print(i,end="")
