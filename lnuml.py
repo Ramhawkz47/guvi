@@ -1,3 +1,4 @@
+x=input()
 s=input().split()
 s.sort()
 s=s[::-1]
